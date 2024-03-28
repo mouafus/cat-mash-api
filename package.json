@@ -1,0 +1,17 @@
+{
+  "name": "cat-mash-back",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www.mjs"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.19.2",
+    "morgan": "~1.9.1",
+    "prisma": "^5.11.0"
+  }
+}
